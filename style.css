@@ -1,0 +1,102 @@
+body {
+  background: white;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+h3.prompt {
+  font-style: italic;
+  font-weight: 500;
+}
+
+h4 {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.instructions {
+  text-align: left;
+}
+
+.modal {
+  outline: solid 1px black;
+  border-radius: 5px;
+  width: 694px;
+  padding: 10px 30px;
+}
+
+.drawing-box {
+  width: 100%;
+  height: 352px;
+  outline: solid 1px black;
+  position: relative;
+}
+
+#drawing-canvas {
+  outline: solid 1px black;
+  background-color: white;
+  cursor: crosshair;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.bottom-modal {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clear-button {
+  width: 60px;
+  height: 69px;
+  background-color: #F5F5F5;
+  border: none;
+  outline: solid 1px #BBBBBB;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.clear-button:hover {
+  background-color: #E0E0E0;
+}
+
+.trash-icon {
+  width: 30px;
+  height: 30px;
+}
+
+#verify-button {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-weight: 700;
+}
+
+.inactive {
+  background-color: #A3C6EF;
+  width: 100px;
+  border: none;
+}
+
+.active {
+  background-color: #1F6AC2;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+}
+

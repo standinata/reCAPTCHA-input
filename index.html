@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Start of modal -->
+  <div class="modal">
+    
+    <div class="instructions">
+      <h3>Draw the following prompt to verify:</h3>
+      <h3 class="prompt">A cat with a wizard hat that is dancing under the moon.</h3>
+    </div>
+
+    <!-- Drawing box -->
+    <div class="drawing-box">
+      <canvas id="drawing-canvas"></canvas>
+    </div>
+    
+
+    <div class="bottom-modal">
+      <!-- clear button -->
+      <button class="clear-button" id="clear-button">
+        <img src="trash-2.svg" alt="Trash Icon" class="trash-icon">
+      </button>
+
+      <!-- verify button -->
+      <button class="inactive" id="verify-button">
+        <h4>Verify</h4>
+      </button>    
+
+    </div>
+    
+  </div> 
+  <!-- End of modal -->
+
+  <script src="script.js"></script> <!-- Move script here -->
+</body>
+</html>
